@@ -48,7 +48,7 @@
         
             .four p {
                 position: absolute;
-                font-size: 10.5px;
+                font-size: 11px;
                 color: #aba9b4;
                 text-transform: uppercase;
                 letter-spacing: 2px;
@@ -62,7 +62,7 @@
             }
         .one p {
             position: absolute;
-            font-size: 10.5px;
+            font-size: 11px;
             color: #aba9b4;
             text-transform: uppercase;
             text-decoration: none;
@@ -76,7 +76,7 @@
         }
         .three p {
             position: absolute;
-            font-size: 10.5px;
+            font-size: 11px;
             color: #aba9b4;
             text-transform: uppercase;
             text-decoration: none;
@@ -90,7 +90,7 @@
         }
         .two p {
             position: absolute;
-            font-size: 10.5px;
+            font-size: 11px;
             color: #aba9b4;
             text-transform: uppercase;
             text-decoration: none;
@@ -332,6 +332,14 @@
             height: 500px;
             background: radial-gradient(520px, #89CFF1, transparent 50%);
             margin-top: -50px;
+        }
+
+        .logo img {
+            height: 90px;
+            width: 190px;
+            position: relative;
+            left: -35px;
+            margin-top: -5%;
         }
         
         .wave{
@@ -740,4 +748,3 @@
       animation-timing-function: ease-in-out;
   }
 
- 
