@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-Portfolio|Contact_Page</title>
+    <title>My-Portfolio | Contact_Page</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap" rel="stylesheet">
 
     
@@ -28,14 +28,15 @@
                         <li><a href="skills.html">SKILLS</a></li>
                         <li><a href="about.html">ABOUT ME</a></li>
                         <li><a href="index.html">HOME</a></li>
-                        <li><a href="Resume/My-Resume.pdf" download="My-Resume" target="_Blank">RESUME</a></li>
-                        <li><a href="https://github.com/camille2225" target="_Blank">GITHUB</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100009638910816" target="_Blank">FB</a></li>
+                        <li><a href="https://www.instagram.com/camsy_ell/" target="_Blank">IG</a></li>
+                        <li><a href="https://github.com/camille2225" target="_Blank">GHUB</a></li>
             </ul>
 
-            
+             
             <div class="logo">
-                <H2>C.A.E</H2>
-            </div>
+              <img src="images/my-logo.PNG">
+          </div>
         </div>
         </div>
             
@@ -58,7 +59,7 @@
     
     <div class="container">
 
-              <form class="border-right pr-5 mb-5" method="post" id="contactForm" name="contactForm">
+              <form class="border-right pr-5 mb-5" method="post" id="contactForm" name="contactForm" action="php/send-email.php">
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input type="text" class="form-control" name="fname" id="fname" placeholder="First name">
@@ -81,7 +82,10 @@
                 <div class="row">
                   <div class="col-md-12">
                     <input type="submit" value="Send Message" style="margin-top: 2%;" class="btn btn-primary rounded-0 py-2 px-4">
-                    <span class="submitting"></span>
+                    
+                  <span class="submitting"></span>
+                  </div>
+                    </div>
                   </div>
                 </div>
               </form>
