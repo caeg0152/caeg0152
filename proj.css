@@ -8,6 +8,14 @@
     
 }      
 
+.logo img {
+  height: 90px;
+  width: 190px;
+  position: relative;
+  left: -35px;
+  margin-top: -5%;
+}
+
 .logo {
     position: absolute;
     left: 600px;
