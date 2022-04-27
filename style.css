@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
 
         *{
             margin: 0%;
@@ -108,7 +111,7 @@
             margin-left: -3%;
             
         }
-
+      
         .inner ul li:nth-child(4) {
             float: right;
             margin-left: 500px;
@@ -459,8 +462,10 @@
                 margin-left: 9.5%;
                 height: 4px;
                 margin-top: 11.5%;
-                
+              
          }
+
+        
 
          .abouttext p {
             animation: text 2s;
@@ -515,6 +520,81 @@
             border-width: 100p;
 
         }  
+
+        @media(max-width: 574px){
+            .skills .about h1 {
+                font-size: 100px;
+                margin-top: 43%;
+                margin-left: 1%;
+    
+            } 
+            .abouttext1 p {
+                margin-left: -10%;
+                margin-top: 25%;
+                width: 48%;
+                margin-top: 30%;
+            }
+            .line1 {
+                margin-top: -100%;
+            }
+            
+            
+          }
+          @media(max-width: 574px){
+             .about h1 {
+                font-size: 100px;
+                margin-top: 43%;
+                margin-left: 1%;
+    
+            } 
+            .abouttext p {
+                margin-left: -10%;
+                margin-top: 25%;
+                width: 48%;
+                margin-top: 30%;
+            }
+            .line1 {
+                margin-top: -100%;
+            }
+            
+            
+          }
+          @media(max-width: 574px){
+              .inner .left ul {
+                  display: flex;
+                  flex-wrap: wrap;
+              }
+              .inner .left ul li {
+                  margin-left: -1%;
+                
+              }
+              .Hab p{
+                  margin-top: 10%;
+              }
+          }
+
+          @media(max-width: 574px){
+              .content .text p {
+                  font-size: 30px;
+                  margin-left: -28%;
+                  margin-top: -8%;
+
+              }
+              .content .animated-item {
+                font-size: 30px;
+                margin-top: -100%;
+              }
+              .content .text1 p {
+                  font-size: 15px;
+                  width: 72%;
+                  margin-left: -50%;
+                  margin-top: 11%;
+              }
+          }
+          
+
+          
+         
        
          .abouttext {
              position: relative;
